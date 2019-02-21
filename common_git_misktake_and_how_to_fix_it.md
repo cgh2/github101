@@ -1,6 +1,6 @@
 ## common git misktake
 
-#### spell last commit message wrong
+:point_right: spell last commit message wrong
 ```
 git commit --amend #rewrite the commit message
 
@@ -8,7 +8,7 @@ git commit --amend --no-edit #modified the wrong part but the commit message kee
 
 ```
 
-#### splling mistake on branch name
+:point_right: splling mistake on branch name
 ```
 git branch -m feature-brunch feature-branch
 
@@ -17,18 +17,18 @@ git push origin --delete feature-brunch
 git push origin featur-branch
 ```
 
-#### accidentally push all changes to the  master brance
+:point_right: accidentally push all changes to the  master brance
 ```
 git brance feature-branch
 git reset HEAD~ --hard
 git checkout feature-branch
 ```
-#### forget to add a file to the  last commit 
+:point_right: forget to add a file to the  last commit 
 ```
 git add missed-file.txt
 git commit -amend
 ```
-#### add a wrong file in the repo
+:point_right: add a wrong file in the repo
 ```
 #if the  file only in staging area but not commit
 git reset wrong-file.txt
